@@ -11,4 +11,4 @@ ex1.o:$(SOURCES)
 	$(CC) $(CFLAGS) $(SOURCES)
 
 clean:
-	rm -f ex1 *.o *~
+	rm -f ex1 *.o .*.swp MAKEFILE~
