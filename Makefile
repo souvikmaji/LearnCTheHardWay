@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -g -o
 
-all:ex1 ex3 ex5 ex6 ex7 ex8 ex9
+all:ex1 ex3 ex5 ex6 ex7 ex8 ex9 ex10
 
 ex1:ex1.c
 	$(CC) $(CFLAGS) ex1 ex1.c
@@ -23,6 +23,9 @@ ex8:ex8.c
 
 ex9:ex9.c
 	$(CC) $(CFLAGS) ex9 ex9.c
+
+ex10:ex10.c
+	$(CC) $(CFLAGS) ex10 ex10.c
 
 clean:
 	rm -f *.o .*.swp Makefile~ *.c~
