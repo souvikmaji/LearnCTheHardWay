@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -g -o
 
-all:ex1 ex3 ex5 ex6 ex7 ex8 ex9 ex10 ex11 ex12 ex13 ex14
+all:ex1 ex3 ex5 ex6 ex7 ex8 ex9 ex10 ex11 ex12 ex13 ex14 ex15
 
 ex1:ex1.c
 	$(CC) $(CFLAGS) bin/ex1 ex1.c
@@ -39,5 +39,7 @@ ex13:ex13.c
 ex14:ex14.c
 	$(CC) $(CFLAGS) bin/ex14 ex14.c
 
+ex15:ex15.c
+	$(CC) $(CFLAGS) bin/ex15 ex15.c
 clean:
 	rm -f *.o .*.swp Makefile~ *.c~
