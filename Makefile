@@ -32,5 +32,9 @@ ex11:ex11.c
 
 ex12:ex12.c
 	$(CC) $(CFLAGS) bin/ex12 ex12.c
+
+ex13:ex13.c
+	$(CC) $(CFLAGS) bin/ex13 ex13.c
+
 clean:
 	rm -f *.o .*.swp Makefile~ *.c~
